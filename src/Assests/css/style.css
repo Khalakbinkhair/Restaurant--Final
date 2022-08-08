@@ -1,0 +1,391 @@
+/* coffee-img */
+/* Extra small devices (phones, 600px and down) */
+
+
+
+@media only screen and (max-width: 320px) {
+  .coffee-img {
+    position: relative;
+    left: 15%;
+    width: 60%;
+  }
+
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .coffee-img {
+    position: relative;
+    left: 20%;
+    width: 50%;
+  }
+
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .coffee-img {
+    width: 50%;
+  }
+  
+ 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+ {
+  .coffee-img {
+    width: 50%;
+  }
+ 
+ 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1025px) {
+  .coffee-img {
+    position: relative;
+
+    width: 40%;
+  }
+ 
+}
+
+
+/* img-component */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .img-component {
+    position: relative;
+    left: 25%;
+    top: 30px;
+    width: 50%;
+    border-radius: 50% 50%;
+
+  }
+  .edit-btn{
+    padding:.25rem .5rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .img-component {
+    position: relative;
+    left: 20%;
+    width: 50%;
+    border-radius: 50% 50%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .img-component {
+    width: 50%;
+    border-radius: 50% 50%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .img-component {
+    width: 60%;
+    position: relative;
+    left: 30%;
+    border-radius: 50% 50%;
+  }
+ 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .img-component {
+    width: 60%;
+    position: relative;
+    left: 30%;
+     border-radius: 50% 50%;
+  }
+}
+
+/* Logo text */
+/* Extra small devices (phones, 320px and down) */
+@media only screen and (min-width: 320px) {
+  .logo-text {
+    font-family: storefrontPro;
+    color: #402E14;
+    position: relative;
+    padding: 2rem;
+    font-size: 1.5rem;
+
+
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 375px and up) */
+@media only screen and (min-width: 375px) {
+  .logo-text {
+
+    position: relative;
+    font-family: storefrontPro;
+    color: #402E14;
+    padding: 2rem;
+    font-size: 1.5rem;
+
+  }
+ 
+}
+
+/* Small devices (portrait tablets and large phones, 375px and up) */
+@media only screen and (min-width: 425px) {
+  .logo-text {
+
+    position: relative;
+    font-family: storefrontPro;
+    color: #402E14;
+    padding: 2rem;
+    font-size: 1.5rem;
+
+  }
+ 
+}
+
+
+/* Small devices (portrait tablets and large phones, 375px and up) */
+@media only screen and (min-width: 768px) {
+  .logo-text {
+
+    position: relative;
+    font-family: storefrontPro;
+    color: #402E14;
+  }
+ 
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .logo-text {
+    font-family: storefrontPro;
+    color: #402E14;
+    position: relative;
+    font-size: 2rem;
+
+  }
+}
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1440px) {
+  .logo-text {
+    font-family: storefrontPro;
+    color: #402E14;
+    position: relative;
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .body-text {
+
+    position: relative;
+
+    left: -30px;
+
+
+  }
+}
+
+
+/* Small devices (portrait tablets and small phones, 320px and up) */
+@media only screen and (min-width: 320px) {
+  .meal-text {
+    position: relative;
+    font-size: -2rem;
+    color: white;
+    font-weight: bold;
+
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .meal-text {
+    position: relative;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+
+  }
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .meal-text {
+    position: relative;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+
+  }
+}
+
+@font-face {
+
+  font-family: storefrontPro;
+  src: url(../fonts/StorefrontPro.ttf);
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 97.94%;
+
+}
+
+.footer-tag {
+  font-family: storefrontPro;
+  color: #402E14;
+  font-weight: 400;
+  font-size: 2rem;
+  padding: 2rem;
+
+}
+
+.footer-info {
+  color: #402E14;
+
+}
+
+.nav-text {
+  font-family: storefrontPro;
+  color: #402E14;
+  font-weight: 400;
+  font-size: 2rem;
+  padding: 2rem 0rem 0rem 5rem;
+
+}
+
+
+
+.nav-btn {
+  border: none;
+  background: none;
+}
+
+.nav-btn:hover {
+  border: none;
+  background: #402E14;
+  color: white;
+}
+
+.navbar-nav {
+
+  margin: auto;
+  float: right;
+  justify-content: right;
+  padding: 0rem 1rem 0rem 0rem;
+  font-size: 20px;
+}
+
+
+
+.img {
+  display: flex;
+  padding: 0rem 0rem 0rem 10rem;
+}
+
+
+
+.restro-btn {
+
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.visit-btn {
+  width: 250px;
+  text-align: center;
+  background-color: #402E14;
+  color: white;
+}
+
+.visit-btn:hover {
+  color: #f9f7f4;
+  background-color: #8e651f;
+
+}
+
+.background_img {
+  background-image: url(../images/background_img.png);
+
+
+}
+
+.head_card {
+  width: 90%;
+  box-shadow: 11px 15px 16px rgba(0, 0, 0, 0.25);
+  border: 1px solid #FFFFFF;
+  margin: 10%;
+  border-radius: 30px;
+  background-color: rgba(17, 13, 13, 0.55);
+
+}
+
+.body_text {
+
+justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+  display: flex;
+  padding: 2rem;
+
+
+
+}
+
+.coffee-item {
+
+  background-color: rgba(65, 60, 60, 0.55);
+  border: rgba(65, 60, 60, 0.55);
+  font-weight: bold;
+  color: #FFFFFF;
+  width: 5rem;
+
+}
+
+.edit-btn {
+
+
+  color: #FFFFFF;
+
+}
+
+.edit-btn:hover {
+
+  background-color: #402E14;
+  color: #FFFFFF;
+
+}
+.meal_card {
+
+  width: 90%;
+  margin: 10%;
+  box-shadow: 11px 15px 16px rgba(0, 0, 0, 0.25);
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+  background-color: rgba(17, 13, 13, 0.55);
+
+}
+ .coffee-details{
+  display: flex;
+  flex-flow: column;
+  color: white;
+  justify-content: center;
+}
+.meal_content {
+  color: white;
+}
+.coffee-card-detail{
+  padding: 2rem 1rem;
+}
